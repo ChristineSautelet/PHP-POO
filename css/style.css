@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 40px 48px;
+    align-items: center;
+  }
+  
+form{
+  border: solid 3px black;
+  padding: 0 20px 20px 0;
+
+}
+
+th, input, select, textarea, label{
+    box-sizing:border-box;
+    position: relative;
+    width: 9rem;
+}
+label{
+    margin-bottom: 1 rem ;
+}
+textarea {
+    resize: none;
+  }
+table{
+  padding-top: 20px;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+  max-width: 100%;
+}
+
+
+
+
+
